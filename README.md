@@ -8,7 +8,7 @@
 
 ## 下载与开始使用
 
-到本仓库的 **[Releases 下载页](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/latest)**，下载 `李淑芬的资产管理工具_Windows使用版_v19.zip`。
+到本仓库的 **[Releases 下载页](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/latest)**，或直接下载 **[Windows 使用版 ZIP](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.0.0/Lishufen-Asset-Manager-Windows-v19.zip)**（`Lishufen-Asset-Manager-Windows-v19.zip`）。
 
 1. 右键 ZIP，选择“全部解压”，放到有写入权限的固定文件夹。不要直接在压缩包内运行，也不要只取出一个 EXE。
 2. 双击 `李淑芬的资产管理工具.exe`。所需运行组件已随包提供，不需要安装 Python、Node.js 或开发工具。
@@ -20,10 +20,10 @@
 
 ## 看演示与指南
 
-[![软件演示封面](软件演示封面.jpg)](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.0.0/%E6%9D%8E%E6%B7%91%E8%8A%AC%E7%9A%84%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7%20%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D%E4%B8%8E%E6%BC%94%E7%A4%BA.mp4)
+[![软件演示封面](软件演示封面.jpg)](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.0.0/Lishufen-Asset-Manager-Demo.mp4)
 
-- [中文配音演示视频，约 3 分 19 秒](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.0.0/%E6%9D%8E%E6%B7%91%E8%8A%AC%E7%9A%84%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7%20%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D%E4%B8%8E%E6%BC%94%E7%A4%BA.mp4)：含中文字幕与章节。
-- [六页图文使用指南 PDF](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.0.0/%E6%9D%8E%E6%B7%91%E8%8A%AC%E7%9A%84%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7_%E5%9B%BE%E6%96%87%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.pdf)。
+- [中文配音演示视频，约 3 分 19 秒](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.0.0/Lishufen-Asset-Manager-Demo.mp4)：含中文字幕与章节。
+- [六页图文使用指南 PDF](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.0.0/Lishufen-Asset-Manager-Guide.pdf)。
 - 可编辑 Word 版随软件包提供，位于 `使用文档/功能介绍与演示/`；完整 `使用说明.txt` 位于解压后的软件根目录。
 
 发布 ZIP 中也附带这些资料，位于 `使用文档/功能介绍与演示/`。视频和指南使用演示库，画面中的目录、用户名和角色仅为示例；不要求使用相同位置，也不会自动导入新素材库。云端画面用于说明设置流程，不代表演示中执行了真实传输。

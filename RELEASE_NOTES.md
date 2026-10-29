@@ -8,12 +8,12 @@
 
 | 项目 | 内容 |
 | --- | --- |
-| Windows 使用版 ZIP | `李淑芬的资产管理工具_Windows使用版_v19.zip` |
-| 文件大小 | 39,928,950 字节（约 40 MB） |
+| Windows 使用版 ZIP | `Lishufen-Asset-Manager-Windows-v19.zip` |
+| 文件大小 | 39,928,950 字节（约 38.08 MiB） |
 | 包内文件数 | 121 |
 | SHA-256 | `d4ef7bb779d770da172c043d29d012e6599be171234d38fb36621ea273123de9` |
 
-下载附件见本仓库 [Releases](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/latest)。GitHub 自动生成的 `Source code (zip)` 只是介绍与教程仓库的归档，不是软件使用版。
+[直接下载 Windows 使用版](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.0.0/Lishufen-Asset-Manager-Windows-v19.zip) · [下载校验文件](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.0.0/SHA256SUMS.txt)。全部附件见本仓库 [Releases](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/latest)。GitHub 自动生成的 `Source code (zip)` 只是介绍与教程仓库的归档，不是软件使用版。
 
 本包通过 9 项实际解压功能检查与 20 项分发内容检查；测试使用独立示例库，不涉及制作者的真实资料。
 
@@ -31,7 +31,7 @@
 - Windows 便携启动、关闭后台入口及第三方组件许可说明。
 - 约 3 分 19 秒的中文配音演示、字幕、六页 PDF 图文指南、可编辑 Word 版与封面。
 
-讲解视频与六页指南 PDF 将作为本版本的独立 Release 附件提供：[演示视频](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.0.0/%E6%9D%8E%E6%B7%91%E8%8A%AC%E7%9A%84%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7%20%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D%E4%B8%8E%E6%BC%94%E7%A4%BA.mp4) · [图文指南 PDF](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.0.0/%E6%9D%8E%E6%B7%91%E8%8A%AC%E7%9A%84%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7_%E5%9B%BE%E6%96%87%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.pdf)。视频、PDF、可编辑 Word、字幕和封面也全部包含在便携包的 `使用文档/功能介绍与演示/` 中。
+讲解视频与六页指南 PDF 作为本版本的独立 Release 附件提供：[演示视频](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.0.0/Lishufen-Asset-Manager-Demo.mp4) · [图文指南 PDF](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.0.0/Lishufen-Asset-Manager-Guide.pdf)。视频、PDF、可编辑 Word、字幕和封面也全部包含在便携包的 `使用文档/功能介绍与演示/` 中。
 
 ## 使用边界
 
