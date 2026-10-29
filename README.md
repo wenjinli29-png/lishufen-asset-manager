@@ -1,4 +1,4 @@
-# 李淑芬的AIGC资产管理工具
+# 李淑芬的资产管理工具
 
 作者：**AIGC异想天开的老李** · [抖音主页](https://v.douyin.com/RnsvkrkP2rU/) · [B站主页](https://space.bilibili.com/494755856)
 
@@ -13,8 +13,23 @@
 适用于 Windows 10 / 11 64 位电脑。
 
 1. 下载后右键选择“全部解压”，把整个文件夹放到自己方便的位置。
+
 2. 双击“李淑芬的资产管理工具.exe”，在打开的页面中新建项目，拖入自己的素材。
+
 3. 找到需要的卡片，预览后点“复制原文件”，再到创作软件里粘贴。
+
+### Mac 测试版
+
+适用于 **macOS 15 及以上**，请按电脑芯片选择：
+
+- **[Apple Silicon 版 · M 系列芯片](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.1.0-mac.1/Lishufen-Asset-Manager-macOS-AppleSilicon.zip)**
+- **[Intel 版 · Intel 处理器](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.1.0-mac.1/Lishufen-Asset-Manager-macOS-Intel.zip)**
+
+不确定选哪个，可以在苹果菜单的“关于本机”里查看芯片或处理器。
+
+完整解压后，把“李淑芬的资产管理工具.app”放到应用程序文件夹或自己方便的位置，双击就能打开。复制原文件后，在 Finder 中按 **Command+V** 粘贴；其他创作软件是否接收文件粘贴，以对应软件为准。
+
+Mac 版目前是尚未完成 Apple 公证的测试版。若系统阻止打开，请保留提示并反馈，不必关闭系统安全设置。
 
 第一次打开是空素材库。演示里的角色只是例子，可以换成你自己的素材。完整说明、视频和图文指南都放在软件包里。
 
@@ -24,13 +39,20 @@
 
 [观看约 3 分 19 秒的中文讲解](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.0.0/Lishufen-Asset-Manager-Demo.mp4) · [查看六页图文指南](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.0.0/Lishufen-Asset-Manager-Guide.pdf)
 
+演示画面来自 Windows，整理和取用的流程可以参考；Mac 的打开方式、快捷键与存放位置请看包内“先看这里-Mac.txt”。
+
 ## 可以做什么
 
 - **按项目整理素材**：总库里存一份，同一素材可以加入多个项目，修改后一起更新。
+
 - **管理角色与造型**：面部封面、声音参考、不同服装和道具放在同一张角色卡里，方便预览和取用。
+
 - **快速找场景、道具和群演**：用卡片、文件夹和搜索整理图片，也可以多选群演复制。
+
 - **收好用过的 Skill**：保存正文、说明、示例图和制作包，保留更新历史，随时比较或换回之前的版本。
+
 - **在创作网页旁取用素材**：Chrome / Edge 插件可以查找、预览、试听和放入素材，悬浮入口可以拖动。
+
 - **把资料留在自己手里**：素材存在自己的电脑，可另存本地备份，也可以登录自己的百度网盘上传或下载整个素材库。
 
 ## 几个使用小提示
@@ -43,11 +65,13 @@
 
 百度网盘的自动同步需要自己开启：打开时检查一次，修改后同步，空闲时不反复检查。当前上传和下载的是整个素材库，资料多时请耐心等传输完成。
 
-关闭网页后软件仍在后台运行。需要完全退出时，等传输结束，再双击“关闭后台服务.exe”。更新软件前记得先备份自己的资料。
+关闭网页后软件仍在后台运行。等传输结束，Windows 用户双击“关闭后台服务.exe”退出；Mac 用户从 Dock 图标或软件菜单选择“退出”。更新软件前记得先备份自己的资料。
 
 ## 找到我
 
 我是 **AIGC异想天开的老李**。欢迎大家试用，也欢迎来聊聊 AI 视频创作和使用建议。
 
 - 抖音：[AIGC异想天开的老李](https://v.douyin.com/RnsvkrkP2rU/)
+
 - B站：[AIGC异想天开的老李](https://space.bilibili.com/494755856)
+
