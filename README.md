@@ -1,4 +1,4 @@
-# 李淑芬的资产管理工具
+# 李淑芬的AIGC资产管理工具
 
 作者：**AIGC异想天开的老李** · [抖音主页](https://v.douyin.com/RnsvkrkP2rU/) · [B站主页](https://space.bilibili.com/494755856)
 
