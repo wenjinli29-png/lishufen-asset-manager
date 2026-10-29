@@ -1,0 +1,10 @@
+# Public download/tutorial-entry repository: reviewed presentation files only.
+# Application, frontend, extension, launcher and build sources stay private.
+/*
+!/.gitignore
+!/README.md
+!/RELEASE_NOTES.md
+!/软件演示封面.jpg
+
+# Software ZIP, MP4 and PDF are separate GitHub Release attachments.
+# Review the tracked file list; ignore rules do not untrack existing files.
