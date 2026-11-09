@@ -20,7 +20,7 @@ The **Chrome / Edge extension** lets you select a project, browse characters and
 
 **Open your creative page → open the asset panel → find an asset → send it → continue creating.**
 
-The extension provides entry points for Jimeng, LibTV, Seko and Xiaoyunque. The website must accept file drops; check its own preview after sending. You can also copy the original file from the main app and paste it into a compatible destination. The extension does not click Generate.
+The extension provides entry points for Jimeng, LibTV, Seko, Xiaoyunque and Updream. The website must accept file drops; check its own preview after sending. You can also copy the original file from the main app and paste it into a compatible destination. The extension does not click Generate.
 
 ### Reuse assets across projects
 
@@ -28,11 +28,15 @@ The shared library holds all your assets. Projects reference that library, so th
 
 ## Download
 
-**[Download for Windows](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/latest/download/Lishufen-Asset-Manager-Windows.zip)** · [Release notes](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/latest)
+**[Download for Windows](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/latest/download/Lishufen-Asset-Manager-Windows.zip)** · [Chrome / Edge extension 0.7.4](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.3.0/Lishufen-Asset-Manager-Browser-0.7.4.zip) · [Release notes](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/latest)
+
+**v19.3.0: smoother organizing and reuse.** The app and extension share a light and rose palette. Drag cards and projects to reorder them, and new projects no longer show unrelated props. The extension fixes large-image previews, offers individual retries, and loads thumbnails near the visible part of the panel while reusing valid cached images. [What's changed](RELEASE_NOTES.md)
 
 For **Windows 10 / 11, 64-bit**. Extract the complete ZIP, open **李淑芬的资产管理工具.exe**, create a project and add your assets. Keep the extracted files together.
 
 ### Mac preview
+
+The Mac downloads remain at **v19.1.0-mac.1**. The v19.3.0 update above covers the Windows app and browser extension.
 
 For **macOS 15 or later**. Choose the build matching your Mac:
 
@@ -43,7 +47,7 @@ Check **About This Mac** if you are unsure. Extract the complete package and ope
 
 The Mac preview is not Apple-notarized. If macOS blocks opening it, keep the message and share feedback; do not turn off system security settings.
 
-Each download starts with an empty library. The characters shown in the demo are examples, and you can use your own assets. The currently published packages and included tutorials are primarily in Chinese; this English page explains their workflow.
+Each download starts with an empty library. The characters shown in the demo are examples, and you can use your own assets. The current Windows app and extension offer Chinese and English; the included narrated video and illustrated guide are in Chinese.
 
 ## Watch the demo
 
@@ -67,7 +71,9 @@ Character and outfit bundles include current outfit references and associated im
 
 Removing an asset from a project keeps the shared original. Deleting an asset from the shared library affects projects referencing it, so the app asks before deletion. Deleted items can be restored from Trash for three days.
 
-To install the extension, open your browser's extension management page, enable Developer mode, choose **Load unpacked**, and select the **浏览器插件** folder from the package. Keep the main app running while using it.
+To install the extension, open your browser's extension management page, enable Developer mode, choose **Load unpacked**, and select the **浏览器插件** folder from the package. Keep the main app running while using it. After updating to 0.7.4, click **Reload** on the extensions page and refresh your creative website.
+
+In the extension's character list, **Import all assets** includes current outfit images, matching props and the voice reference. Inside a character, **Import assets** includes only that outfit and its props. Both exclude the face cover and older versions. The extension accepts files up to 32 MiB each and 64 MiB per import batch. Failed previews show a reason and a **Retry preview** button.
 
 Baidu Netdisk automatic sync is optional. When enabled, it checks on opening and syncs after changes, without repeated idle checks. Transfers currently cover the whole library, so larger libraries take longer.
 

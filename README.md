@@ -22,7 +22,7 @@
 
 **打开创作页面 → 展开素材插件 → 找到资产 → 一键放入 → 继续创作。**
 
-插件面向即梦、LibTV、Seko 和小云雀。使用时让画布或上传区域位于当前屏幕中央；直接放入需要网站支持接收文件，放入后确认一下网站预览。也可以使用“复制原文件”后粘贴的方式取用。
+插件面向即梦、LibTV、Seko、小云雀和 Updream。使用时让画布或上传区域位于当前屏幕中央；直接放入需要网站支持接收文件，放入后确认一下网站预览。也可以使用“复制原文件”后粘贴的方式取用。
 
 ### 项目资产随手可找，好用的素材反复复用
 
@@ -30,7 +30,9 @@
 
 ## 下载与使用
 
-**[下载 Windows 版](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/latest/download/Lishufen-Asset-Manager-Windows.zip)** · [查看更新](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/latest)
+**[下载 Windows 版](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/latest/download/Lishufen-Asset-Manager-Windows.zip)** · [单独下载 Chrome / Edge 插件 0.7.4](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.3.0/Lishufen-Asset-Manager-Browser-0.7.4.zip) · [查看更新](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/latest)
+
+**v19.3.0：把整理和取用做得更顺手。** 主软件和插件统一了浅色与玫红配色，卡片与项目支持拖动排序；修复了新项目显示其他道具的问题。插件修复了大图预览，失败时可单独重试，并按窗口可见范围加载缩略图，减少反复读取。[本次更新详情](RELEASE_NOTES.md)
 
 适用于 Windows 10 / 11 64 位电脑。
 
@@ -41,6 +43,8 @@
 3. 找到需要的卡片，预览后点“复制原文件”，再到创作软件里粘贴。
 
 ### Mac 测试版
+
+当前 Mac 下载仍为 **v19.1.0-mac.1**；上面的 v19.3.0 更新适用于 Windows 软件和浏览器插件。
 
 适用于 **macOS 15 及以上**，请按电脑芯片选择：
 
@@ -83,7 +87,9 @@ Mac 版目前是尚未完成 Apple 公证的测试版。若系统阻止打开，
 
 从项目里移除素材，不会删除总库原件；删除总库素材会影响引用它的项目，操作前会弹窗提示。删除后可在回收站保留三天，期间可以恢复。
 
-安装插件时，打开浏览器的扩展管理页，开启开发者模式，选择“加载已解压的扩展程序”，再选软件包里的“浏览器插件”文件夹。插件面向即梦、LibTV、Seko和小云雀；网页能否接收素材取决于对应上传区域，放入后看一下网站预览，再继续生成。
+安装插件时，打开浏览器的扩展管理页，开启开发者模式，选择“加载已解压的扩展程序”，再选软件包里的“浏览器插件”文件夹。插件面向即梦、LibTV、Seko、小云雀和 Updream；网页能否接收素材取决于对应上传区域，放入后看一下网站预览，再继续生成。更新到 0.7.4 后，在扩展管理页点“重新加载”，再刷新创作网页。
+
+插件角色列表的“导入全部资产”包含当前服装、配套道具和声音参考；进入角色后，“导入资产”只导入本套服装和道具。两者都不带面部封面和旧版本。单个文件上限 32 MB，每次导入合计上限 64 MB；预览失败可以查看原因并点“重试预览”。
 
 百度网盘的自动同步需要自己开启：打开时检查一次，修改后同步，空闲时不反复检查。当前上传和下载的是整个素材库，资料多时请耐心等传输完成。
 
