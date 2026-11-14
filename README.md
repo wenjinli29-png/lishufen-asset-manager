@@ -30,9 +30,9 @@
 
 ## 下载与使用
 
-**[下载 Windows 版](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/latest/download/Lishufen-Asset-Manager-Windows.zip)** · [单独下载 Chrome / Edge 插件 0.7.4](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.3.0/Lishufen-Asset-Manager-Browser-0.7.4.zip) · [查看更新](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/latest)
+**[下载 Windows 版](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.4.0/Lishufen-Asset-Manager-Windows.zip)** · [单独下载 Chrome / Edge 插件 0.7.5](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.4.0/Lishufen-Asset-Manager-Browser-0.7.5.zip) · [查看更新](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/tag/v19.4.0)
 
-**v19.3.0：把整理和取用做得更顺手。** 主软件和插件统一了浅色与玫红配色，卡片与项目支持拖动排序；修复了新项目显示其他道具的问题。插件修复了大图预览，失败时可单独重试，并按窗口可见范围加载缩略图，减少反复读取。[本次更新详情](RELEASE_NOTES.md)
+**v19.4.0：喜欢的风格也能收好，添加素材更顺手。** 主软件新增 Midjourney「P 值收藏」，用展示图找风格，一键复制完整 `--p` 参数；各类添加入口移到搜索框旁，滚动时仍可使用。这次也修复了桌面悬浮小人偶尔被遮住，以及插件后台休眠后角色缩略图读不出来的问题。[本次更新详情](RELEASE_NOTES.md)
 
 适用于 Windows 10 / 11 64 位电脑。
 
@@ -44,7 +44,7 @@
 
 ### Mac 测试版
 
-当前 Mac 下载仍为 **v19.1.0-mac.1**；上面的 v19.3.0 更新适用于 Windows 软件和浏览器插件。
+当前 Mac 下载仍为 **v19.1.0-mac.1**；上面的 v19.4.0 更新适用于 Windows 软件和浏览器插件。
 
 适用于 **macOS 15 及以上**，请按电脑芯片选择：
 
@@ -77,17 +77,23 @@ Mac 版目前是尚未完成 Apple 公证的测试版。若系统阻止打开，
 
 - **收好用过的 Skill**：保存正文、说明、示例图和制作包，保留更新历史，随时比较或换回之前的版本。
 
+- **收藏 Midjourney P 值**：在主软件保存代码、展示图、名称和备注，用图片寻找风格，点击即可复制完整 `--p 代码`。所有项目共用，也可随资产包导出和备份。
+
 - **一键把资产放入创作画布**：Chrome / Edge 悬浮插件可直接查找、预览、试听，并向支持接收文件的当前画布或上传区域放入原文件；悬浮入口可以拖动。
 
 - **把资料留在自己手里**：素材存在自己的电脑，可另存本地备份，也可以登录自己的百度网盘上传或下载整个素材库。
 
 ## 几个使用小提示
 
+添加入口现在统一放在卡片区左上、搜索框旁边，向下浏览时仍保持可见；角色详情中的服装和道具，分别在自己的卡片区左上方添加。
+
+P 值收藏位于主软件左侧。可以直接粘贴代码或 `--p 代码`，再拖入一张展示图。复制的是参数文本，展示图不会一起复制；含 P 值的资产包请在新版软件中导入。
+
 “复制全套”和“复制本套”会带上当前服装图与对应道具，面部封面、声音和旧版本不在其中；声音可以单独复制。群演多选复制的是多个原文件，暂时不自动拼图。
 
 从项目里移除素材，不会删除总库原件；删除总库素材会影响引用它的项目，操作前会弹窗提示。删除后可在回收站保留三天，期间可以恢复。
 
-安装插件时，打开浏览器的扩展管理页，开启开发者模式，选择“加载已解压的扩展程序”，再选软件包里的“浏览器插件”文件夹。插件面向即梦、LibTV、Seko、小云雀和 Updream；网页能否接收素材取决于对应上传区域，放入后看一下网站预览，再继续生成。更新到 0.7.4 后，在扩展管理页点“重新加载”，再刷新创作网页。
+安装插件时，打开浏览器的扩展管理页，开启开发者模式，选择“加载已解压的扩展程序”，再选软件包里的“浏览器插件”文件夹。插件面向即梦、LibTV、Seko、小云雀和 Updream；网页能否接收素材取决于对应上传区域，放入后看一下网站预览，再继续生成。更新到 0.7.5 后，在扩展管理页点“重新加载”，再刷新创作网页。
 
 插件角色列表的“导入全部资产”包含当前服装、配套道具和声音参考；进入角色后，“导入资产”只导入本套服装和道具。两者都不带面部封面和旧版本。单个文件上限 32 MB，每次导入合计上限 64 MB；预览失败可以查看原因并点“重试预览”。
 

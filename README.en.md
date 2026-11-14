@@ -28,15 +28,15 @@ The shared library holds all your assets. Projects reference that library, so th
 
 ## Download
 
-**[Download for Windows](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/latest/download/Lishufen-Asset-Manager-Windows.zip)** · [Chrome / Edge extension 0.7.4](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.3.0/Lishufen-Asset-Manager-Browser-0.7.4.zip) · [Release notes](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/latest)
+**[Download for Windows](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.4.0/Lishufen-Asset-Manager-Windows.zip)** · [Chrome / Edge extension 0.7.5](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/download/v19.4.0/Lishufen-Asset-Manager-Browser-0.7.5.zip) · [Release notes](https://github.com/wenjinli29-png/lishufen-asset-manager/releases/tag/v19.4.0)
 
-**v19.3.0: smoother organizing and reuse.** The app and extension share a light and rose palette. Drag cards and projects to reorder them, and new projects no longer show unrelated props. The extension fixes large-image previews, offers individual retries, and loads thumbnails near the visible part of the panel while reusing valid cached images. [What's changed](RELEASE_NOTES.md)
+**v19.4.0: save your favorite styles and add assets more easily.** The main app now includes a Midjourney P value collection: find a style by its preview and copy the complete `--p` parameter. Add buttons sit beside search and stay available while scrolling. This release also restores the desktop mascot when it loses its position above other windows, and fixes missing character thumbnails after the extension background worker wakes. [What's changed](RELEASE_NOTES.md)
 
 For **Windows 10 / 11, 64-bit**. Extract the complete ZIP, open **李淑芬的资产管理工具.exe**, create a project and add your assets. Keep the extracted files together.
 
 ### Mac preview
 
-The Mac downloads remain at **v19.1.0-mac.1**. The v19.3.0 update above covers the Windows app and browser extension.
+The Mac downloads remain at **v19.1.0-mac.1**. The v19.4.0 update above covers the Windows app and browser extension.
 
 For **macOS 15 or later**. Choose the build matching your Mac:
 
@@ -63,15 +63,20 @@ The narration and guide are in Chinese and show Windows. Mac startup, shortcuts 
 - **Characters:** face covers, outfits, props and voice references in one place.
 - **Scenes, props and extras:** browse visual cards, folders and search results; copy multiple extras together.
 - **Skills:** keep instructions, descriptions, examples and original packages with update history.
+- **Midjourney P values:** save a code, preview image, name and notes in the main app; copy the complete `--p code` in one click. The collection is shared across projects and included in asset exports and backups.
 - **Local files and backups:** keep your assets on your computer, create local backups, or upload and download your library using your own Baidu Netdisk account.
 
 ## Useful details
+
+Add buttons now sit at the top left of the collection, beside search, and remain available while scrolling. Outfit and prop controls stay at the top left of their own sections inside a character.
+
+Open **P value collection** in the main app, paste a code or `--p code`, and drop in a preview image. Copying returns the parameter text without the image. Use the updated app to import packages containing P values.
 
 Character and outfit bundles include current outfit references and associated image props. Face covers, voice references and older versions are excluded; copy voices separately. Selecting multiple extras copies multiple files and does not automatically create a collage.
 
 Removing an asset from a project keeps the shared original. Deleting an asset from the shared library affects projects referencing it, so the app asks before deletion. Deleted items can be restored from Trash for three days.
 
-To install the extension, open your browser's extension management page, enable Developer mode, choose **Load unpacked**, and select the **浏览器插件** folder from the package. Keep the main app running while using it. After updating to 0.7.4, click **Reload** on the extensions page and refresh your creative website.
+To install the extension, open your browser's extension management page, enable Developer mode, choose **Load unpacked**, and select the **浏览器插件** folder from the package. Keep the main app running while using it. After updating to 0.7.5, click **Reload** on the extensions page and refresh your creative website.
 
 In the extension's character list, **Import all assets** includes current outfit images, matching props and the voice reference. Inside a character, **Import assets** includes only that outfit and its props. Both exclude the face cover and older versions. The extension accepts files up to 32 MiB each and 64 MiB per import batch. Failed previews show a reason and a **Retry preview** button.
 
